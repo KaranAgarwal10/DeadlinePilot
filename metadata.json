@@ -1,0 +1,6 @@
+{
+  "name": "DeadlinePilot",
+  "description": "An autonomous AI productivity companion that actively schedules, analyzes, and helps you beat deadlines.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+}
+
+@layer base {
+  body {
+    @apply font-sans antialiased bg-slate-950 text-slate-100 selection:bg-teal-500/30 selection:text-teal-200;
+  }
+}
+
+/* Glassmorphism scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(15, 23, 42, 0.4);
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(148, 163, 184, 0.3);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(148, 163, 184, 0.5);
+}
+
+/* Pulsing aura */
+@keyframes pulseGlow {
+  0%, 100% { opacity: 0.25; transform: scale(1); }
+  50% { opacity: 0.4; transform: scale(1.05); }
+}
+
+.animate-pulse-glow {
+  animation: pulseGlow 8s infinite ease-in-out;
+}
+
+/* Dynamic Accent Theme Overrides for Tailwind v4 */
+[data-theme="amber"] {
+  --color-teal-400: #fbbf24; /* amber-400 */
+  --color-teal-500: #f59e0b; /* amber-500 */
+  --color-teal-600: #d97706; /* amber-600 */
+  --color-teal-300: #fcd34d; /* amber-300 */
+}
+
+[data-theme="emerald"] {
+  --color-teal-400: #34d399; /* emerald-400 */
+  --color-teal-500: #10b981; /* emerald-500 */
+  --color-teal-600: #059669; /* emerald-600 */
+  --color-teal-300: #6ee7b7; /* emerald-300 */
+}
+
+[data-theme="indigo"] {
+  --color-teal-400: #818cf8; /* indigo-400 */
+  --color-teal-500: #6366f1; /* indigo-500 */
+  --color-teal-600: #4f46e5; /* indigo-600 */
+  --color-teal-300: #a5b4fc; /* indigo-300 */
+}
+
+[data-theme="rose"] {
+  --color-teal-400: #fb7185; /* rose-400 */
+  --color-teal-500: #f43f5e; /* rose-500 */
+  --color-teal-600: #e11d48; /* rose-600 */
+  --color-teal-300: #fca5a5; /* rose-300 */
+}
+
