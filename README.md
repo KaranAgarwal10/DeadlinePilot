@@ -261,31 +261,7 @@ PORT=3000
 ---
 
 ## ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-## 🎙️ 7. JUDGE DEMO SCRIPT (5-MINUTE WINNING PITCH)
-## ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-### **Minute 0:00 - 0:45: The Problem & The Hook**
-> *"Judges, look at standard todo lists. They are passive graveyards for our ambitions. They don't know when we sleep, they don't know how tired we are, and they don't alert us until we've already failed. Enter **DeadlinePilot**: the world's first autonomous, cognitive cockpit for your daily productivity."*
-
-### **Minute 0:45 - 2:00: Swarm Planning & Voice Command (Demo)**
-> *"Let's add a task hands-free. I click the microphone: **'Schedule CS Exam revision by next Monday.'** Watch! The Voice AI Console instantly captures the voice, sends it to our master Express backend, and triggers the **Multi-Agent Swarm**.*
-> *Our **Coordinator Agent** passes this to **Planner**, **Scheduler**, **Risk Predictor**, and **Motivation**. Instantly, we get a full breakdown, recommended deep-work blocks, and a calculated risk score of 54%."*
-
-### **Minute 2:00 - 3:15: Interactive Burnout Prevention & Sleep Tuning**
-> *"Now look at the **AI Burnout Engine** card. It displays a real-time burnout probability. As a student, I might sleep only 5 hours tonight. Let's move this interactive sleep slider down. Watch! The Burnout Index instantly surges to 85% because under-sleeping adds critical cognitive fatigue.*
-> *Suddenly, my schedule is congested. I click **'De-congest Schedule.'** Behind the scenes, our Burnout Rescue Agent defer low-priority tasks by 2 days, lowers our risk metrics, and restores cockpit health automatically!"*
-
-### **Minute 3:15 - 4:15: What-If Simulation & Proactive Extension**
-> *"What if I procrastinate? I open the task and run a **What-If Simulation**: 'What if I delay by 2 days?' The simulation engine recalculates my risk instantly, showing my stress level moving from High to Extreme.*
-> *To prevent failure, DeadlinePilot offers an **AI Extension Negotiator**—pre-generating a highly respectful, structured email draft stating my clear blockers to send to my supervisor immediately."*
-
-### **Minute 4:15 - 5:00: Conclusion & Core Google Tech Stack**
-> *"We utilized React, Tailwind v4, Express, and **Google Gemini 3.5**. DeadlinePilot shifts productivity from defensive tracking to active, autonomous safety buffers. Thank you, and we're ready for your questions!"*
-
----
-
-## ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-## 🔮 8. FUTURE ROADMAP
+## 🔮 7. FUTURE ROADMAP
 ## ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 * **Phase 1:** Native integration with Google Workspace (Calendar, Gmail, Drive) to map real-time scheduled overlaps.
 * **Phase 2:** Hardware notification support using IoT-enabled cockpit alert lights (e.g., physical desk lights shifting color as risk scores spike).
@@ -294,7 +270,7 @@ PORT=3000
 ---
 
 ## ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-## 📓 9. RELEASE NOTES & VERSION 1.0 CHANGELOG
+## 📓 8. RELEASE NOTES & VERSION 1.0 CHANGELOG
 ## ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ### **Version 1.0 — "Apollo Launch" (Stable Production Release)**
 * **Feature:** Spelled out a full-stack Multi-Agent Swarm with detailed visual tracing consoles.
